@@ -1,8 +1,7 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources xmlns:tools="http://android.com">
     <style name="Base.Theme.StudentInfoSystem" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#5A000B</item>
+        <item name="android:navigationBarColor">#B8860B</item>
     </style>
 
     <style name="Theme.StudentInfoSystem" parent="Base.Theme.StudentInfoSystem" />
